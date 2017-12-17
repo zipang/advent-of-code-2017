@@ -4,12 +4,12 @@
 var data = require("path").join(__dirname, process.argv[2] === "--test" ? "data/spreadsheet-test.json" : "data/spreadsheet-day2.json"),
     spreadsheet = require(data);
 
-console.log("DAY #2 - Advent of Code");
+console.log("Advent of Code 2017 -- Day #2 - Part #1");
 console.dir(process.argv);
 
 /**
- * 
- * @param {Array[Number]} line 
+ *
+ * @param {Array[Number]} line
  * @return the difference between the max and min values in this array
  */
 function diffLine(line) {
